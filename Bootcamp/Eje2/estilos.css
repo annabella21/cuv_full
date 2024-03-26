@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(255, 0, 0, 0.5); /* Rojo semitransparente usando valores RGBA */
+}
+
+h1 { 
+  font-family: verdana; 
+  color: green; 
+  background-color: yellow; 
+  align-self: center;
+}
+
+.boton{
+  font-size:10px;
+  font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#638cb5;
+  border:0px;
+  width:220px;
+  height:45px;
+ }
+
+p { 
+  font-family: verdana; 
+  font-size:10px;
+  align-self: center;
+
+}
+
+h3 { 
+  font-family: verdana; 
+  color: green; 
+  font-size:20px;
+  align-self: center;
+}
