@@ -1,0 +1,32 @@
+
+   
+    h1{
+
+        font-family: "Bebas Neue", 'Franklin Gothic Medium';
+        font-weight: 400px;
+        font-size: 40px;
+        font-style: normal;
+      }
+
+      h3{
+        text-align: center;
+        margin-top: 50%;
+        color: #cd3838e9;
+        
+        }
+
+      ul{
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        list-style-type: none;
+        margin-top: 1%;
+        margin-left: 90%;
+        width: 300px;
+        background-color: rgb(255, 242, 0);        
+      }
+  
+ 
+
+
+

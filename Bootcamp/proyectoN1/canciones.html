@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agregar Canciones</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      class=".bebas-neue-regular"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="relative">
+    <div class="flex items-center relative justify-between">
+      <div  class=" ml-2 border-2 w-1/5 h-screen r-2xl bg-[#d1bdc2]"
+      >
+        <a href="index.html">
+          <img
+            class="w-7/10 mx-auto"
+            src="imagen2.ico"
+            alt="logo im2"
+          />
+        </a>
+        <h2 class="text-white bg-black text-center p-2 m-2"></Menú></h2>
+        <ul>
+          <li class="text-center hover:bg-slate-900 hover:text-white p-2 m-2">
+            <a href="shows.html">Shows<s/a>
+          </li>
+          <li class="text-center hover:bg-slate-900 hover:text-white p-2 m-2">
+            <a href="datos.html">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+
+           <div class="flex items-center relative"></div>
+      <img
+        class="w-min mx-auto"
+        src="idragons.avif"
+        alt="imagen Dragons"
+        />
+
+        <div class="ml-96 flex-row w-4/6 text-center justify-center absolute top-0">
+          <img
+            class="w-min mx-auto"
+            src="imagen2.ico"
+            href="index.html"
+            alt="icono "
+          />
+        <h3 class="mt-5 font-arial text-4xl relative">Agregar Canciones</h3>
+
+      <div class="flex text-center justify-center mt-9">
+        <div class="flex text-center justify-center absolute">
+          <form action="" method="post">
+            <label for="album">Nombre de la cancion : </label
+            ><input type="text" id="Album" name="Referente al Album" required />
+            <label for="compuso">Cuando se Compuso?</label
+            ><input
+              type="number"
+              id="compuso"
+              name="lcompuso"
+              min="1500"
+              max="2000"
+              required
+            /><br /><br />
+            <textarea name="Notas" id="Notas" cols="20" rows="10">
+Notas :</textarea 
+            ><br />
+               <input
+              type="url"
+              id="imagen_album"
+              name="imagen_album"
+              class="imagen_album"
+            /> <span> <button class="text-xl bg-black text-white pt-0 pb-0 pl-6 pr-6 m-auto 2xl"><span>Guardar</span><link rel="stylesheet" href="Agregar Canción"></button>
+            <button class="text-xl bg-black text-white pt-0 pb-0 pl-6 pr-6 m-auto 2xl"><span>Cancelar</span><link rel="stylesheet" href="Agregar Canción"></button>
+          </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
